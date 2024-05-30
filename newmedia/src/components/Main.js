@@ -12,7 +12,7 @@ const Main = ({ search }) => {
     const getNews = async (search) => {
 
          // Fetch data from the API
-         fetch("https://newsapi.org/v2/top-headlines?q=" + search + "&apiKey=b77fc04990094a8ebdb849077f4539aa")
+         fetch("https://newsapi.org/v2/top-headlines?q=" + search + "&apiKey=f2558f6d8ec84d62b17afd8229b5b8ef")
          .then(response => response.json())
          .then(response => {
 
