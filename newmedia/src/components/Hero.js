@@ -6,6 +6,7 @@ const Hero = ({ setSearch }) => {
 
 // name: This is a state variable that holds the current value of the input field.
 // setName: This is a function that updates the name state variable.
+// useState("") initializes the name state to an empty string.
   const [name, setName] = useState("");
 
   // calls the setSearch function (provided via props) with the current value of the name state variable. This effectively performs the search when the button is clicked.
