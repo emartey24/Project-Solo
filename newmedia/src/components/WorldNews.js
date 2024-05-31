@@ -9,7 +9,6 @@ function WorldNews() {
   return (
     <div>
     <Layout />
-      <h1>WorldNews</h1>
       <Hero setSearch={setSearch} />
       <Category setSearch={setSearch} />
       <Main search={search} />

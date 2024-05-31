@@ -148,7 +148,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
  float: left;
-  color: yellow;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -162,5 +162,24 @@ body {
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: black;
-  color: yellow;
+  color: white;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.Home-Page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }

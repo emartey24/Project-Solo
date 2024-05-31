@@ -4,7 +4,7 @@ import Contact from './components/Contact'
 import Payment from './components/Payment'
 import WorldNews from './components/WorldNews'
 import Home from './components/Home';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
 

@@ -13,7 +13,7 @@ const Hero = ({ setSearch }) => {
       <header>
         <div className="hero">
           <div className="hero-banner">
-            <h4>News Media</h4>
+            <h4>New Media</h4>
             <p>All new news is an old news happenning to new people</p>
             <input
               type="text"
@@ -28,7 +28,6 @@ const Hero = ({ setSearch }) => {
             </button>
           </div>
         </div>
-        <div></div>
       </header>
     </div>
   );
