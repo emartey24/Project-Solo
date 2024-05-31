@@ -19,7 +19,7 @@ const Main = ({ search }) => {
     const getNews = async (search) => {
 
          // Fetch data from the API
-         fetch("https://newsapi.org/v2/top-headlines?q=" + search + "&apiKey=4240df7757114945b334f0eb4d499b39")
+         fetch("https://newsapi.org/v2/top-headlines?q=" + search + "&apiKey=51204789c49a4c3d8db6da77f44d0be6")
          .then(response => response.json())
          .then(response => {
            
